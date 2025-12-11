@@ -191,7 +191,7 @@ function Form() {
             </div>
             <button
                 type="submit"
-                className="flex items-center justify-center gap-2 font-bold text-sm bg-lime-500 text-gray-900 px-6 py-4 rounded-full w-75 hover:bg-lime-500/50"
+                className="flex items-center justify-center gap-2 font-bold text-sm bg-[var(--Lime)] text-gray-900 px-6 py-4 rounded-full w-75 hover:bg-[var(--Lime)]/50 cursor-pointer"
             >
                 <img src={iconCalcylator} alt="Calculator Icon" className="h-5 w-5" />
                 Calculate Repayments
