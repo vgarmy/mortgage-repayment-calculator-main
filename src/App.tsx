@@ -4,7 +4,7 @@ import Calculator from './components/calculator'
 function App() {
 
   return (
-    <div className="flex items-center justify-center max-w-[1440px] p-[210px] min-h-screen mx-auto">
+    <div className="flex items-start sm:items-center sm:justify-center sm:max-w-[1440px] sm:p-[210px] min-h-screen mx-auto">
       <Calculator />
     </div>
   )
